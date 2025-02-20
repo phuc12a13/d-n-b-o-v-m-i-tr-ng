@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: aquamarine;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: aquamarine;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: aquamarine;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: aquamarine;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🌳DỰ ÁN BẢO VỆ MÔI TRƯỜNG🌳</h1>
+  <p>LỚP 12A13 TRƯỜNG THPT NGUYỄN AN NINH</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Trang chủ</a>
+  <a href="#">Về chúng tôi</a>
+  <a href="#">Hoạt động</a>
+  <a href="#">Liên hệ</a>
+  <a href="#" style="float:right">Link</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1>🌿ĐÔI NÉT VỀ DỰ ÁN BẢO VỆ MÔI TRƯỜNG🌿</h1>
+      <img src="https://images.hdgmvietnam.com/images/admin/upload/image/bao-ve-moi-truong.jpg" width="950px">
+      <p>Bảo vệ môi trường là tổng hợp các hoạt động, biện pháp nhằm duy trì sự trong lành của môi trường tự nhiên, ngăn chặn sự suy thoái của hệ sinh thái, hạn chế ô nhiễm và bảo tồn tài nguyên thiên nhiên. Đây là quá trình quan trọng giúp đảm bảo sự cân bằng sinh thái, giảm thiểu tác động tiêu cực của con người đối với thiên nhiên, đồng thời góp phần ứng phó với biến đổi khí hậu và bảo vệ đa dạng sinh học.</p>
+      <p>Bảo vệ môi trường không chỉ là trách nhiệm của các tổ chức, chính phủ mà còn là nghĩa vụ của mỗi cá nhân. Các biện pháp bảo vệ môi trường có thể bao gồm việc sử dụng hợp lý tài nguyên, giảm thiểu rác thải, sử dụng năng lượng tái tạo, bảo vệ rừng, nguồn nước và động vật hoang dã. Mục tiêu cuối cùng là hướng đến sự phát triển bền vững, giúp con người và thiên nhiên cùng tồn tại hài hòa, đảm bảo điều kiện sống tốt đẹp cho thế hệ hiện tại và tương lai.
+      </p>
+    </div>
+    <div class="card">
+      <h1>🌎MỘT SỐ HÌNH ẢNH VÀ HOẠT ĐỘNG CHI TIẾT KHI BẢO VỆ MÔI TRƯỜNG🌎</h1>
+      <img src="https://btnmt.1cdn.vn/thumbs/900x600/2024/09/20/ha-trang-5.jpg" width="950px">
+      <p><h2>MỘT VÀI HOẠT ĐỘNG BẢO VỆ MÔI TRƯỜNG💁</h2></p>
+      <p><h3>Tái chế và sử dụng lại:</h3>Sắp xếp các vật liệu như giấy, nhựa, thủy tinh để tái chế, hạn chế việc vứt bỏ đồ dùng một lần. Bạn có thể sử dụng các sản phẩm tái chế hoặc tái sử dụng đồ dùng thay vì mua mới.</p>
+      <p><h3>Tiết kiệm năng lượng:</h3>Tắt các thiết bị điện khi không sử dụng, sử dụng đèn LED tiết kiệm điện, hạn chế sử dụng các thiết bị điện không cần thiết.</p>
+      <p><h3>Trồng cây:</h3>Trồng cây là một cách tuyệt vời để cải thiện chất lượng không khí và cung cấp nơi sinh sống cho động vật hoang dã. Ngoài ra, cây xanh còn giúp giảm hiệu ứng nhà kính.</p>
+      <p><h3>Hạn chế sử dụng nhựa:</h3> Sử dụng các sản phẩm thân thiện với môi trường như túi vải, bình nước tái sử dụng thay vì sử dụng sản phẩm nhựa dùng một lần.</p>
+      <p><h3>Giáo dục cộng đồng về bảo vệ môi trường: </h3>Tổ chức các buổi chia sẻ, hội thảo để nâng cao nhận thức về bảo vệ môi trường trong cộng đồng, đồng thời khuyến khích mọi người hành động.</p>
+      <p><h3>Tham gia các chiến dịch bảo vệ động vật hoang dã:</h3>Hỗ trợ hoặc tham gia vào các tổ chức bảo vệ động vật hoang dã và giúp ngừng nạn săn bắt trái phép.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>CÂU SOLOGAN CỦA NHÓM</h2>
+      <img src="https://tayson.binhdinh.gov.vn/uploads/news/2023_03/42_1.jpg" width="250px">
+      <p><h3>"Giữ gìn xanh sạch, vì một hành tinh khỏe mạnh!"</h3></p>
+    </div>
+    <div class="card">
+      <h3>MỘT SỐ DỰ ÁN MÀ NHÓM ĐÃ THAM GIA TẠI TRƯỜNG HỌC</h3>
+      <div class="fakeimg"><p>"Hành động vì môi trường - Tái chế rác thải"</p></div>
+      <div class="fakeimg"><p>"Trồng cây xanh - Thêm màu xanh cho trường học"</p></div>
+      <div class="fakeimg"><p></p>"Chung tay bảo vệ nguồn nước"</div>
+    </div>
+    <div class="card">
+      <h2>Follow Me</h2>
+      <p><h3>Instagram:</h3> Baovemoitruongxanh_lop12a13</p>
+      <p><h3>Facebook:</h3>🌳BẢO VỆ MÔI TRƯỜNG XANH CÙNG 12A13🌎</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>THANKS FOR WATCHING💖</h2>
+</div>
+
+</body>
+</html>
